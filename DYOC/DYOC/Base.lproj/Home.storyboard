@@ -9,7 +9,7 @@
         <!--首页-->
         <scene sceneID="cSH-iS-ghw">
             <objects>
-                <navigationController id="bQc-fx-84O" sceneMemberID="viewController">
+                <navigationController id="bQc-fx-84O" customClass="CustomNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="首页" image="btn_home_normal" selectedImage="btn_home_selected" id="8an-94-ulO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="kro-1K-crP">
@@ -22,12 +22,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2O6-yn-3Wj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-113" y="-45"/>
+            <point key="canvasLocation" x="-182" y="-45"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="N5J-ew-5zE">
             <objects>
-                <viewController id="Sse-lq-nl0" sceneMemberID="viewController">
+                <viewController id="Sse-lq-nl0" customClass="HomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0k9-4l-2cP"/>
                         <viewControllerLayoutGuide type="bottom" id="d4W-hY-Hd8"/>
@@ -41,7 +41,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HsU-V4-Zoc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="634" y="-38"/>
+            <point key="canvasLocation" x="502" y="-53"/>
         </scene>
     </scenes>
     <resources>

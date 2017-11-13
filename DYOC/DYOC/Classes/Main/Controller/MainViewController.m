@@ -33,8 +33,19 @@
     UIViewController *childVC = [storyboard instantiateInitialViewController];
     [self addChildViewController:childVC];
     
+    
+    UIButton *bddsd = [[UIButton alloc]initWithFrame:CGRectMake(200, 200, 50, 50)];
+    bddsd.backgroundColor = [UIColor blackColor];
+    [self.view addSubview:bddsd];
+    [bddsd addTarget:self action:@selector(sdsdsdsdsd) forControlEvents:UIControlEventTouchUpInside];
+    
 }
 
+- (void)sdsdsdsdsd {
+//    [self.childViewControllers.firstObject removeFromParentViewController];
+//    UIViewController *dsds = self.childViewControllers.firstObject;
+//    dsds = nil;
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
